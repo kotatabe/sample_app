@@ -1,14 +1,16 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-gem 'rails',      '6.1.4'
+gem 'rails',          '6.1.4'
+gem 'bcrypt',         '3.1.12'
 gem 'bootstrap-sass', '3.3.7'
-gem 'puma',       '5.4.0'
-gem 'sass-rails', '6.0.0'
-gem 'webpacker',  '5.4.0'
-gem 'turbolinks', '5.2.1'
-gem 'jbuilder',   '2.11.2'
-gem 'bootsnap',   '1.4.5', require: false
+gem 'puma',           '5.4.0'
+gem 'sass-rails',     '6.0.0'
+gem 'webpacker',      '5.4.0'
+gem 'turbolinks',     '5.2.1'
+gem 'jbuilder',       '2.11.2'
+gem 'bootsnap',       '1.4.5', require: false
+gem 'pry-rails'
 
 group :development, :test do
   gem 'sqlite3', '1.4.1'
